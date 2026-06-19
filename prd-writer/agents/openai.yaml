@@ -1,0 +1,4 @@
+interface:
+  display_name: "PRD Writer"
+  short_description: "Write and validate engineer-ready PRDs."
+  default_prompt: "Use $prd-writer to turn this product idea into an engineer-ready PRD with validation."

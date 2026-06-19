@@ -1,0 +1,4 @@
+interface:
+  display_name: "Writing Prompts"
+  short_description: "Turn vague requests into precise PACE prompts."
+  default_prompt: "Use $writing-prompts to turn this rough request into a precise PACE brief and propose a plan before drafting."

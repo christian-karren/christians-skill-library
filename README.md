@@ -9,6 +9,7 @@ or the whole library.
 | Skill | What it does |
 |-------|--------------|
 | [`prd-writer`](prd-writer/) | Writes high-quality, engineer-ready PRDs and grades them against 13 automated quality checks (EXCELLENT/GOOD/ACCEPTABLE/NEEDS_WORK). Pure document generation — no task runners, no external services. |
+| [`writing-prompts`](writing-prompts/) | Turns vague requests into precise PACE prompts, with plan-first execution for multi-step or fragile work. |
 
 _More coming._
 
