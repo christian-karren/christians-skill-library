@@ -1,0 +1,4 @@
+interface:
+  display_name: "Code Review and Quality"
+  short_description: "Review code across quality gates."
+  default_prompt: "Use $code-review-and-quality to review this change for correctness, readability, architecture, security, and performance."

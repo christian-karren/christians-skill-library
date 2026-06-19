@@ -8,7 +8,10 @@ or the whole library.
 
 | Skill | What it does |
 |-------|--------------|
+| [`code-review-and-quality`](code-review-and-quality/) | Reviews code across correctness, readability, architecture, security, and performance quality gates. |
 | [`prd-writer`](prd-writer/) | Writes high-quality, engineer-ready PRDs and grades them against 13 automated quality checks (EXCELLENT/GOOD/ACCEPTABLE/NEEDS_WORK). Pure document generation — no task runners, no external services. |
+| [`refactor`](refactor/) | Guides surgical refactoring that improves maintainability without changing external behavior. |
+| [`verification-before-completion`](verification-before-completion/) | Requires fresh verification evidence before claiming work is complete, fixed, or passing. |
 | [`writing-prompts`](writing-prompts/) | Turns vague requests into precise PACE prompts, with plan-first execution for multi-step or fragile work. |
 
 _More coming._
