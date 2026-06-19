@@ -1,0 +1,20 @@
+prd-writer
+Copyright (c) 2026 Christian Karren
+
+This skill is a derivative work. Its PRD template structure and the 13-check
+quality validator (`script.py`) are adapted from the PRD-generation core of:
+
+    prd-taskmaster
+    https://github.com/anombyte93/prd-taskmaster
+    Copyright (c) 2025 Hayden (github.com/anombyte93)
+    Licensed under the MIT License.
+
+Changes from the original:
+  - Removed all TaskMaster integration (detection, init, parse, expand).
+  - Removed autonomous task execution, time tracking, rollback, progress
+    logging, and crash-recovery state.
+  - Reduced `script.py` to three commands: load-template, validate-prd, backup-prd.
+  - Re-labeled the four "taskmaster" validation checks as general "quality" checks.
+  - De-branded the PRD templates.
+
+The original MIT license text is retained in the LICENSE file.
